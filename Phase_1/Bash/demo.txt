@@ -6,6 +6,10 @@ Basic Navigation
 pwd
 ls
 moving: ., .., ~, and /
+* / = root, the top-level directory
+* ~ = your home directory
+* . = the current directory
+* .. the parent directory
 cd: go to ~/flatiron
 touch: create a new .txt file
 mkdir: today's work

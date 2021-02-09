@@ -32,3 +32,15 @@ Let's go over some common git commands!
 15. Run `git status` again. Now how does it look?
 
 16. Run `git push origin main`. The names following the 'push' describe the destination of your changes. "origin" is the default name for the repository to which you push local changes and "main" is the default branch name. If you are connected to other repositories or are working on other branches (more on this later), you'll want to adjust these parameters in the `git push` command.
+
+---------------------------------------
+
+Resolving Conflicts:
+
+1. Git stash - hides local files with uncommited changes
+
+2. git pull --rebase upstream main - rollbacks changes and see a log of commits to rollback
+
+3. git stash pop - readds local files with changes to merge to upload
+
+4. git pull --rebase upstream main (fixes the rebase)

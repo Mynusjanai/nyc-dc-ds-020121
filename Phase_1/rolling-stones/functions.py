@@ -2,6 +2,8 @@
 import pandas as pd
 import numpy as np
 import requests as rq #interact with things & data that lives on the web
+import json
+import requests
 from matplotlib import pyplot as plt
 from sklearn.preprocessing import OneHotEncoder
 from zipfile import ZipFile

@@ -216,8 +216,8 @@ def genre_list(data):
 genre_list(data)
 
 fig, ax = plt.subplots(figsize=(12,12))
-plt.hist(genre_list(data), bins = 20)
-plt.show()
+ax.hist(genre_list(data), bins = 20)
+;
 
 
 
@@ -233,9 +233,11 @@ fig, ax = plt.subplots(figsize=(20,10))
 ax.set_xlabel('# of Genres', size=30);
 ax.set_ylabel('Albums', size=30)
 ax.set_title('Album Histogram by Genre', size=50);
-plt.hist(genre_list(data), bins = 20, color='darkslateblue')
-plt.xticks(genre_list(data), #size of ticks on x-axis
+ax.hist(genre_list(data), bins = 20, color='darkslateblue')
+ax.set_xticks(genre_list(data), #size of ticks on x-axis
                         rotation = 60);
+
+
 
 ## ranking data cleaning from lines.txt
 def ranking(data):

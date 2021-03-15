@@ -6,7 +6,7 @@ Created on Thu Sep  5 15:35:22 2019
 @author: swilson5
 """
 import pytest
-from solutions import Calculator
+from descriptive import Calculator
 
 print('starting tests')
 def test_mean():

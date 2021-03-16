@@ -22,7 +22,7 @@ def test_mean():
 def test_std():
     data = [2, 10, 15, 20, 45, 55, 80]
     instance = Calculator(data)
-    actual_std = instance.mean
+    actual_std = instance.stand_dev
     expected_std = 28.33641
     message = "Expected STD: {0}, Actual value: {1}".format(expected_std,
                                                               actual_std)

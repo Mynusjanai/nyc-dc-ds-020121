@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Big Data JSON File
+*.json
+reviews_Toys_and_Games_5.json
